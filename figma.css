@@ -1,0 +1,463 @@
+/* Resetting default margin and padding */
+body,
+h1,
+p {
+  margin: 0;
+  padding: 0;
+}
+body{
+  margin-right: 0px;
+}
+/* Styling the navigation bar */
+.navbar {
+  background-color: white;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 1px solid blue; */
+  padding: 10px;
+  /* margin: 20px; */
+}
+
+.navbar .nav-link {
+  margin-right: 35px;
+  font-weight: bold;
+}
+
+.navbar .cart-link {
+  margin-right: 30px;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+  /* font-size: 30px; */
+}
+
+.content {
+  padding: 20px;
+}
+
+.b {
+  margin-right: 0px;
+}
+
+.background-container {
+  background-image: url('Figmaimg/bgImg.png');
+  background-size: 100% 100%;
+  height: 100vh;
+  width: 100vw;
+  margin-top: -10px;
+}
+
+.info-box {
+  position: absolute;
+  top: 400px;
+  /* Adjust position from the top */
+  right: 150px;
+  /* Adjust right distance from the right edge */
+  transform: translateY(-50%);
+  background-color: #FFF3E3;
+  /* Adjust background color and opacity */
+  padding: 50px;
+  text-align: left;
+  color: white;
+  /* Text color */
+  color: #B88E2F;
+  width: 450px;
+  /* Set width of the box */
+  height: 350px;
+}
+
+.info-box p {
+  color: black;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #B88E2F;
+  /* Button color */
+  color: white;
+  /* Button text color */
+  text-decoration: none;
+  border-radius: 0px;
+  margin-top: 25px;
+  /* font-family: 'Poppins'; */
+  font-size: medium;
+  font-weight: bold;
+  width: 150px;
+}
+
+.c {
+  padding: 0px;
+  margin: 0px;
+  font-size: 52px;
+  font-family: 'Poppins';
+  font-weight: bolder;
+}
+
+.new-arrival {
+  font-family: 'Poppins';
+  font-weight: 600;
+}
+
+.browse {
+  font-family: 'Poppins';
+  margin-top: 5px;
+  text-align: center;
+  font-weight: bold;
+  /* border: 2px solid red; */
+}
+
+.browse2 {
+  font-family: 'Poppins';
+  text-align: center;
+}
+
+/* Styles for the images */
+.images-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  margin-left: 50px;
+  /* Create space on the left */
+  margin-right: 50px;
+  /* Create space on the right */
+}
+
+.images-container img {
+  width: 381px;
+  /* Set width for each image */
+  height: 480px;
+  /* Set height for each image */
+  object-fit: cover;
+  /* Maintain image aspect ratio */
+  margin: 10px;
+  /* Adjust space between the images */
+}
+
+.image-heading {
+  text-align: center;
+  font-size: 24%;
+  /* font-family: 'Poppins'; */
+  font-weight: bold;
+  padding-top: 20px;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  position: relative;
+}
+
+.product {
+  position: relative;
+  width: 285px;
+  height: 446px;
+  background-color: #F4F5F7;
+  /* padding: 20px; */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product img {
+  width: 100%;
+  /* border-radius: 5px; */
+}
+
+.product-info {
+  margin-top: 15px;
+  text-align: start;
+  margin-left: 10px;
+}
+
+.p1 {
+  font-size: 16px;
+  color: grey;
+}
+
+.p1 p {
+  font-size: 20px;
+}
+
+.show-more {
+  display: inline-block;
+  padding: 10px 20px;
+  color: #B88E2F;
+  /* Button color */
+  background-color: white;
+  /* Button text color */
+  text-decoration: none;
+  border-radius: 0px;
+  margin-top: 25px;
+  /* font-family: 'Poppins'; */
+  font-size: medium;
+  font-weight: bold;
+  width: 200px;
+  text-align: center;
+  border: 1px solid #B88E2F;
+}
+
+.btn2 {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: white;
+  color: #B88E2F;
+  text-decoration: none;
+  border-radius: 0px;
+  margin-top: 25px;
+  font-size: medium;
+  font-weight: bold;
+  width: 150px;
+  margin-left: 40px;
+}
+
+.overlay {
+  /* border: 1px solid red; */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+  background-color: rgba(72, 70, 70, 0.5);
+  /* Adjust the color and transparency as needed */
+  border-radius: 10px;
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.d {
+  /* border: 1px solid red; */
+  /* padding-left: 20px; */
+  margin-right: 25px;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 16px;
+  flex-direction: row;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  font-family: 'Poppins';
+  width: 40px;
+  height: 20px;
+}
+
+.overlay .btn2 {
+  display: block;
+  margin-bottom: 10px;
+}
+
+#first-id {
+  border: 1px solid red;
+  /* margin-left: 25px; */
+}
+
+.additional-info {
+  /* border: 3px solid blue; */
+  display: flex;
+  /* width: 252px; */
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 10px;
+  width: calc(100% - 20px);
+  /* Adjust the width by reducing 15px from the right side */
+  overflow: hidden;
+  /* Hide the content that overflows */
+}
+
+.share-container {
+  display: flex;
+  align-items: center;
+  margin-left: 15px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.product:hover .overlay {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  /* transform: scale(1.1); */
+}
+
+.additional-info a {
+  /* display: inline-block; */
+  display: block;
+  /* Display each item in a block */
+  margin-bottom: 5px;
+  /* Adjust space between items */
+  text-decoration: none;
+  /* Remove underline */
+  color: white;
+  /* Text color */
+}
+
+/* Additional style for the images */
+.additional-info a img {
+  display: inline-block;
+  width: 20px;
+  /* Adjust the width as needed */
+  height: 20px;
+  /* Adjust the height as needed */
+  margin-right: 5px;
+  /* Adjust spacing between image and text */
+  vertical-align: middle;
+  /* Align images vertically */
+}
+
+/* Hover effect for anchor tags */
+.additional-info a:hover {
+  color: white;
+  /* Change text color on hover */
+}
+
+.new-box-container {
+  /* Your container styles here */
+  width: 100%;
+  height: 670px;
+  background-color: #FCF8F3;
+  display: flex;
+}
+
+.info-section {
+  flex: 1;
+  padding: 20px;
+}
+
+.container {
+  /* border: 1px solid red; */
+  display: flex;
+  height: 550px;
+  background-color: #FCF8F3;
+  margin-top: 20px;
+  margin-left: 0px;
+  width: 1920!important;
+}
+
+.left-section {
+  /* border: 1px solid rgb(0, 208, 255); */
+  flex: 3;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  margin-left: 20px;
+}
+
+.info {
+  background-color: #FCF8F3;
+  padding: 50px;
+  /* border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+  text-align: left;
+}
+
+.info h1 {
+  font-family: 'poppins';
+  font-weight: 40px;
+}
+
+.info p {
+  font-family: 'poppins';
+}
+
+.explore-more {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #B88E2F;
+  color: white;
+  text-decoration: none;
+  border-radius: 0px;
+  margin-top: 25px;
+  font-size: medium;
+  font-weight: bold;
+  width: 150px;
+}
+
+.image-container {
+  border: 1px solid #B88E2F;
+  flex: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FCF8F3;
+  overflow: hidden;
+}
+
+.image-slider {
+  width: 450px;
+  /* Changed width to accommodate 2 images */
+  height: 475px;
+  position: relative;
+  /* border: 3px solid black; */
+  /* border: 1px solid #f7f6fa; */
+  /* Added border for visualization */
+  overflow: hidden; 
+  /* Added this line */
+}
+
+.image-slider img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  float: left;
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 10px;
+  border-radius: 50%;
+  border: none;
+  font-size: 20px;
+  z-index: 1;
+}
+
+.prev {
+  left: 10px;
+}
+
+.next {
+  right: 10px;
+}
+.setup-main {
+  display: flex;
+  flex-direction: column;
+}
+
+.setup-content {
+  margin-block: 15px;
+  text-align: center;
+}
+.footer-above {
+  margin-block: 15px;
+}
